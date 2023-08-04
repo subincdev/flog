@@ -24,8 +24,8 @@ future: true
 show_author: true
 description: >- # this means to ignore newlines until "baseurl:"
   플러터와 다트에 대한 기록을 남기는 블로그입니다.
-# baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/flog" # the subpath of your site, e.g. /blog
+url: "https://subincdev.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 # github_username:  jekyll
 
@@ -39,6 +39,7 @@ plugins:
  - jekyll-paginate
  - liquid-md5
  - jekyll/tagging
+  - jekyll-remote-theme
 
 # Exclude from processing.
 # The following items will not be processed, by default.
